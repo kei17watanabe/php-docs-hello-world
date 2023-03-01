@@ -48,7 +48,8 @@ foreach ($allowIpList as $allowIp) {
  
 // 一致が無ければIP制限
 if (!$matchFlag) {
-          // 制限の処理・・・
+    header ('HTTP/1.0 503 Service Temporarily Unavailable');
+    exit();
 }
 
 ?>
