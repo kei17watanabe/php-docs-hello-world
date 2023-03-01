@@ -1,6 +1,6 @@
 <?php
 
-//echo "Hello World!";
+echo "Hello World!";
 
 // 許可IPリスト
 $allowIpList = array(
