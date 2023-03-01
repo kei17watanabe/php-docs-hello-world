@@ -50,3 +50,5 @@ foreach ($allowIpList as $allowIp) {
 if (!$matchFlag) {
           // 制限の処理・・・
 }
+
+?>
