@@ -1,4 +1,4 @@
-//<?php
+<?php
 
 //echo "Hello World!";
 
@@ -52,4 +52,4 @@ if (!$matchFlag) {
     exit();
 }
 
-//?>
+?>
